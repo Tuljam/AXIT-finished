@@ -1,0 +1,95 @@
+.customers {
+    
+    &__title--wrapper {
+    width: 100%;
+
+}
+    &__title {
+    margin: 0;
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $colorBlackfont;
+    border: 1px dashed rgb(15, 104, 206);
+    
+}
+    &__second-title {
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: $colorGreyAccent;
+    margin: 0;
+    margin-bottom: 80px;
+    border: 1px dashed rgb(15, 104, 206);
+}
+    &__content--wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EC7979;
+
+}
+    &__content {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    border: 1px solid rgb(15, 206, 31);
+    }
+    
+    &__content-descr {
+    background:$colorLightGreyAccent;
+    border-radius: 10px;
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $colorGreyAccent;
+    padding: 20px 10px;
+    margin: 0;
+    margin-bottom: 35px;
+    overflow: hidden;
+    border: 1px dashed rgb(15, 104, 206);
+
+
+}
+    &__user-group {
+    display: flex;
+    align-items: center;
+    border: 1px dashed rgb(168, 15, 206);
+
+}
+    &__avatar {
+    margin-right: 15px;
+
+}
+    &__info {
+
+
+}
+    &__info-name {
+    font-family: $fontOpenSans;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: $colorBlackfont;
+    margin: 0;
+    border: 1px dashed rgb(206, 15, 15);
+}
+
+    &__info-position {
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 18px;
+    color: $colorBlackfont;
+
+    
+}
+
+  }  

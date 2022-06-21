@@ -1,0 +1,131 @@
+.AXIT {
+    &-heading {
+        width: 100%;
+        background: $colorBlackfont;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+   
+    &__logo {
+        margin-left: 25px; 
+        
+        &-img {
+        width: 170px;
+        }  
+    }
+    
+        
+    &-nav {
+            &__list {
+                display:flex ;
+                margin: 0;
+                padding: 0;
+            } 
+            &__item {
+                padding: 35px;
+            }
+            &__link {
+                font-family: $fontOpenSans;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                text-transform: capitalize;
+                text-decoration: none;
+                color: $colorWhiteAccent;
+            }
+}
+
+
+    &-description {
+        height: 100vh;
+        background-image: url('../images/AXIT-fon.jpg');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        padding: 170px 80px 10px;
+    
+        &__logo {
+            margin-bottom: 25px;
+        }
+    &--warapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__logo-img {
+        width: 270px;
+        height: 100px;
+    }
+    &__title {
+        font-family: $fontRaleway;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: $colorWhiteAccent;
+        margin: 0;
+        }
+    &__text {
+        width: 270px;
+        font-family: $fontRaleway;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: $colorWhiteAccent;
+        margin: 0;
+        margin-bottom: 25px;
+
+    }
+}
+
+    &-form {
+        background-color: $colorWhiteAccent;
+        width: 935px;
+        height: 365px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        border-color:$colorRedAccent;
+        border-radius: 2%;
+
+    &__secondare-title {
+        font-family: $fontOpenSans;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333333;
+        margin-bottom: 25px;
+}
+    &__secondare-title--red-word {
+        color: $colorRedAccent;
+}    
+    &__page { 
+        border-bottom: 2px solid #BDBDBD;
+        width: 100%;
+        height: 60px;
+}
+    &__item {
+        font-family: $fontOpenSans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #BDBDBD;
+        padding: 15px;
+}
+    &__item--button {
+        height: 100%;
+        width: 100%;
+        background-color:$colorRedAccent;
+        border: none;
+
+}
+}
+
+
+
+
+}
+

@@ -1,0 +1,128 @@
+// .prising-block { 
+
+//     &__title {
+//     margin: 0;
+//     font-family: var(--main-font-family);
+//     font-weight: 400;
+//     font-size: 36px;
+//     text-align: center;
+//     text-transform: uppercase;
+//     color: #000000;
+//     border: 1px solid rgb(206, 15, 15);
+
+// }
+// }
+
+// НЕ РАБОТАЕТ!!!!!!!!!!!!
+
+.pricing-block {
+    
+    &__title {
+    margin: 0;
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $colorBlackfont;
+    border: 1px solid rgb(206, 15, 15);
+
+}
+
+
+}
+
+
+.pricing-block__second-title {
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: $colorGreyAccent;
+    border: 1px solid rgb(15, 206, 79);
+    
+}
+.pricing-block__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 0;
+    border: 1px solid rgb(206, 15, 15);
+
+
+}
+
+.pricing-block__rate {    
+    width: 370px;
+    transition: transform 0.5s ease-in-out;
+    box-shadow: none;   
+    border: 1px dashed rgb(27, 16, 16);
+
+    
+    
+}
+.pricing-block__rate:hover, .pricing-block__rate:focus  {
+    transform: translateY(-25px);
+    box-shadow:5px 5px 0 2px  $colorLightGreyAccent;
+    cursor: pointer;
+}
+
+
+.pricing-block__title-rate {
+
+    background: #333333;
+    border: 2px solid $colorLightGreyAccent;
+    margin: 0;
+    font-family: $fontOpenSans;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: $colorWhiteAccent;
+    padding: 10px;
+    border: 1px dashed rgb(15, 206, 31);
+    
+    
+} 
+    
+.pricing-block__price {
+    padding: 25px;
+    background: #333333;
+    border: 2px solid $colorLightGreyAccent;
+    margin: 0;
+    font-family: $fontRaleway;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center; 
+    color: $colorWhiteAccent;
+
+}
+
+.pricing-block__tagline {
+    padding: 10px;
+    background: #333333;
+    border: 2px solid $colorLightGreyAccent;
+    margin: 0;
+    font-family: $fontRaleway;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: $colorLightGreyAccent;
+
+}
+.pricing-block__item {
+    background: $colorWhiteAccent;
+    border: 2px solid $colorLightGreyAccent;
+    padding: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: $colorGreyAccent;
+    margin: 0;
+}
