@@ -1,15 +1,21 @@
 @import './fonts';
 @import './vars';
-@import './adjustmens.scss';
+@import './mixins';
+@import './adjustments';
+
 
 // components
 @import './components/btns';
 
 
 // blocks
-@import './blocks/AXIT-header';
-@import './blocks/Social-Media';
+@import './blocks/header';
+@import './blocks/axit-baner';
+@import './blocks/social-media';
 @import './blocks/tabs-container';
 @import './blocks/about-us';
 @import './blocks/pricing';
 @import './blocks/customers';
+@import './blocks/disain';
+@import './blocks/contactUs';
+@import './blocks/footer';

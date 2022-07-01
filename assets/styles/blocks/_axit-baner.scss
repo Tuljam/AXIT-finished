@@ -1,0 +1,225 @@
+.axit-baner { 
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/AXIT-fon.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    @include mediaTablet {
+        height: auto;
+    }
+    @include mediaMobile {
+        height: auto;
+    }
+
+
+    .container {
+        display: flex;
+        padding: 206px 30px 45px 52px;
+        
+        @include mediaTablet {
+        padding: 206px 15px 45px 42px;
+        align-items: center;
+        }
+        @include mediaMobile {
+        padding: 84px 15x 50px 15px;
+        flex-direction: column;
+        align-items: center;
+        }
+    }  
+        
+    .separator--axit-banner  {
+        margin-left: 0;
+
+        @include mediaTablet {
+        }
+        @include mediaMobile {
+        margin: 44px;
+        }
+        }
+ 
+        &__description--wrapper {
+        display: flex;
+        flex-direction: column;
+        @include mediaMobile {
+        align-items: center;
+        }
+        }
+
+        &__secondary-logo--wrap {
+        width: 270px;
+        height: 100px;
+        margin-bottom: 55px;
+        padding: 22px 100px 22px 0;
+        @include mediaMobile {
+        display: none;
+    
+        }
+        @include mediaTablet {
+        padding: 14px 100px 22px 0;
+        margin-bottom: 10px;
+        }
+    }
+
+        &__secondary-logoAx {
+        width: 102px;
+        height: 55px;
+
+        @include mediaTablet {
+        width: 69px;
+        height: 41px;
+        }
+        }
+
+        &__secondary-logoIt  {
+        width: 63px;
+        height: 55px;
+
+        @include mediaTablet {
+        width: 43px;
+        height: 41px;
+        }
+    }
+
+        &__title {
+        font-family: $fontRaleway;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-transform: uppercase;
+        color: $colorWhiteAccent;
+        
+        @include mediaTablet {
+            font-size: 36px;
+            line-height: 42px;
+        }
+        @include mediaMobile {
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+        
+        }
+
+        }
+        &__text {
+        width: 270px;
+        font-family: $fontRaleway;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: $colorWhiteAccent;
+        margin-bottom: 55px;
+        
+        @include mediaTablet {
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 31px;
+        }
+        @include mediaMobile {
+            font-size: 14px;
+            line-height: 23px;
+            margin-bottom: 42px;
+        }
+
+        }
+
+        &__form--wrapper {
+        }
+
+        &__form {
+        background-color: $colorWhiteAccent;
+        width: 470px; 
+        @include mediaTablet {
+        width: 397px;
+        }
+        @include mediaMobile {
+        width: 100%;
+        }
+        border-color:$colorRedAccent;
+        border-radius: 2%;
+        display: flex;
+        flex-direction: column;
+        }
+}
+
+.baner-form{ 
+        &__descr {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px 75px 50px;
+        @include mediaMobile {
+            padding: 33px 34px 45px 20px;
+        }
+    }
+
+        &__title {
+        font-family: $fontOpenSans;
+        font-weight: 700;
+        font-size: 24px;
+        
+        @include mediaTablet {
+        font-size: 18px;
+        margin-bottom: 35px ;
+        }
+
+        @include mediaMobile {
+        font-size: 14px;
+            }
+        text-align: center;
+        text-transform: uppercase;
+        color: $colorGreyAccent;
+        margin-bottom: 70px
+        }
+
+        &__item {
+        font-family: $fontOpenSans;
+        font-weight: 400;
+        font-size: 14px;
+        color: #BDBDBD;
+        padding: 15px 0;
+        margin-bottom: 15px;
+        border: 1px solid $colorGreyAccent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        &::placeholder {
+            font-family: $fontOpenSans;
+            font-weight: 400;
+            font-size: 14px;
+            color: #BDBDBD;
+        }
+        &:last-child {
+        margin-bottom: 0;
+        } 
+        }
+        &__title--red-word {
+        color: $colorRedAccent;
+} 
+
+}
+  
+
+.baner-form__button--wrap{
+ 
+
+}
+.button--baner-form {
+height: 60px;
+width: 100%;
+background: $colorRedAccent;
+border-radius: 0px 0px 10px 10px;
+border: none; 
+font-weight: 600;
+font-size: 15px;
+color: $colorWhiteAccent;
+text-transform: capitalize;
+}
+
+.button-axit--main {
+    margin-left: 0;
+    @include mediaMobile {
+    margin: 0 auto;
+    margin-bottom: 56px;
+    }
+}
+

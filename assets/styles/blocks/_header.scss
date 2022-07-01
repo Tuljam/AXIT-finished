@@ -1,0 +1,97 @@
+.axit__heading {
+        background: $colorBlackfont;
+        position: relative;
+
+        .container {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        }
+}
+.axit__burger-btn {
+        width: 24px;
+        height: 18px;
+        outline: none;
+        border: none;
+        background: transparent;
+        display: none;
+
+        @include mediaMobile {
+        display: block;
+
+        &:active {
+        .axit__bugrer-icon {
+        path {
+        fill: $colorRedAccent;
+        }
+        }
+}
+
+
+        &-icon {
+        path {
+        fill: white;
+        }
+        }
+                
+        }
+
+}
+
+.axit__logo {
+        padding: 25px;
+        display: flex;
+        flex-wrap: nowrap;
+        @include mediaTablet {
+        border-bottom: none; 
+
+        }
+        &-img--AX {
+        width: 52px;
+        height: 31px;
+        @include mediaMobile {
+        width: 39px;
+        height: 22px;
+        }
+                }
+        &-img--IT {
+        width: 32px;
+        height: 31px;
+        @include mediaMobile {
+        width: 24px;
+        height: 22px;
+        }
+        }
+        
+}
+.axit__nav {
+              
+        &-list {
+        display:flex ;
+        @include mediaMobile {
+        display: none;                
+        }
+
+        } 
+        &-item {
+        padding: 35px;
+        transition: border 0.3s ease-in-out;
+        }
+        &-item:hover {
+        border: 1px solid $colorRedAccent;
+        }
+        &-item:focus { 
+        cursor: pointer;
+        }
+
+        &-link {
+        font-family: $fontOpenSans;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: $colorWhiteAccent;
+        }
+}

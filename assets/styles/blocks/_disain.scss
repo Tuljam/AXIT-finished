@@ -1,0 +1,49 @@
+.disain {  
+        background-image: url(../images/fon/disain-fon.jpg);
+        background-position: center;
+        background-size: cover;
+    
+    .container {
+        padding: 80px 50px 40px;
+    }
+
+        &--wrapper {   
+        }
+        &__title {
+        font-family: $fontRaleway;
+        font-weight: 400;
+        font-size: 36px;
+        @include mediaTablet {
+        font-size: 24px; 
+        }
+        @include mediaMobile {
+        font-size: 24px; 
+        }
+        text-align: center;
+        text-transform: uppercase;
+        color: $colorWhiteAccent;
+    }
+        &__description {
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 18px;
+            @include mediaTablet {
+                font-size: 14px;
+                margin-bottom: 32px; 
+                }
+                @include mediaMobile {
+                font-size: 14px;
+                margin-bottom: 66px; 
+                }
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 73px;
+        }
+    
+    }
+
+
+.button__disain {
+    margin: 0 auto;
+    display: block;
+}

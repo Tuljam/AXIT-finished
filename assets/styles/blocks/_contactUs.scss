@@ -1,0 +1,117 @@
+.contact-us {
+    .container {
+    max-width: 1170px;
+    padding: 20px 0;
+        @include mediaMobile {
+        padding: 20px 30px; 
+        }
+        }
+    &__title-part {}
+
+    &__title {
+    font-family:$fontRaleway ;
+    font-weight: 400;
+    font-size: 36px;
+    @include mediaTablet {
+        font-size: 24px; 
+    }
+    @include mediaMobile {
+        font-size: 24px; 
+    }
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    }
+
+    &__description {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    @include mediaTablet {
+        font-size: 14px; 
+    }
+    @include mediaMobile {
+        font-size: 14px; 
+    }
+    text-align: center;
+    color: #86878B;
+    }
+    &__form-second {
+    margin-top: 70px;
+    background-color: $colorWhiteAccent;
+    }
+
+}
+.form-second__control--wrapper {
+    width: 100%;
+    display: flex;
+    @include mediaMobile {
+        flex-direction: column;
+    }
+    margin-bottom: 50px;
+    gap: 0 30px;}
+
+    
+    .form-second__list-leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+        @include mediaMobile {
+        width: 100%;
+    }
+}
+    
+    .form-second__list-rightSide {
+    width: 50%;
+    @include mediaMobile {
+        width: 100%;
+    }
+}
+
+.form-second__item {
+    padding: 16px 0;
+    @include mediaMobile {
+        padding: 16px 0;
+        margin-bottom: 35px;
+    }
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+
+    &:last-child {
+    margin-bottom: 0;
+    }
+    &-message {
+    width: 100%;
+    height: 100%;
+    padding: 16px 0;
+    resize: none;
+    @include mediaMobile {
+        padding: 100px 0;
+
+    }
+}
+}
+
+.form-second__butn {
+    width: 370px;
+    height: 60px;
+    @include mediaTablet {
+        width: 318px;
+        height: 58px;
+    }
+    @include mediaMobile {
+        width: 288px;
+        height: 50px;
+    }
+    margin: 0 auto;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+

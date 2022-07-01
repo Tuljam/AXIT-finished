@@ -1,86 +1,118 @@
 
 .about-us { 
+    .container {
+        padding: 20px 0;
+        }
 
         &__main-title {
         font-family:$fontRaleway;
         font-weight: 400;
         font-size: 36px;
+        @include mediaTablet {
+            font-size: 24px;
+        }
+        @include mediaMobile {
+            font-size: 18px;
+        }
         text-align: center;
-        margin: 0;
-        border: 1px dashed rgb(73, 15, 206)
         }
     
         &__second-title {
         font-family: $fontRaleway;
         font-weight: 400;
         font-size: 18px;
+        margin-bottom: 133px;         
+        @include mediaTablet {
+        font-size: 14px;
+        margin-bottom: 86px;
+        }
+        @include mediaMobile {
+        font-size: 13px;
+        margin-bottom: 84px;
+        }
         text-align: center;
         color: #86878B;
-        margin: 0;
-        margin-bottom: 40px;
-        border: 1px dashed rgb(73, 15, 206);
-    }
+        }
+        
         &__skill-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 0;
-        margin: 0;
-        border: 1px solid rgb(31, 206, 15);   
+        @include mediaMobile {
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
-    
-    
-    .skill-list {
+        .skill-list {
         width: calc(31%);
         text-align: center;
         list-style-type: none;
         padding: 15px 0;
-        border: 1px dashed rgb(73, 15, 206);
+        @include mediaMobile {
+            width: 100%;
+        }
     
         &__img--wrap {
-        
-    }
-    .skill-list__img-circle {
+        }
+
+    &__img-circle {
         width: 92px;
         height: 92px;
+        @include mediaTablet {
+        width: 80px;
+        height: 80px;
+        }
+        @include mediaMobile {
+        width: 80px;
+        height: 80px;
+        }
         position: relative;
         margin: auto;
         border: 2px solid $colorRedAccent;
         border-radius: 50%;
-       
     }
         &__img {
-        width: 65px;
-        height: 65px;
-        /* border: 1px solid rgb(206, 15, 15); */
+        max-width: 100%;
+        max-height: 100%;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
     }
     
         &__title {
         font-family: $fontOpenSans;
         font-weight: 700;
         font-size: 24px;
-        line-height: 33px;
+        @include mediaTablet {
+        font-size: 18px;
+        }
+        @include mediaMobile {
+        font-size: 18px;
+        }
         text-align: center;
         text-transform: capitalize;
         color: $colorBlackfont;
         margin: 30px 0;
-        border: 1px solid rgb(35, 37, 35); 
     }
         &__descr {
         font-family: $fontRaleway;
         font-weight: 400;
         font-size: 18px;
+        line-height: 21px;
+        @include mediaTablet {
+        font-size: 14px;
+        line-height: 16px;
+        }
+        @include mediaMobile {
+        font-size: 14px;
+        line-height: 16px;
+            }
         text-align: center;
         color: $colorBlackfont;
-        margin: 0;
-        padding: 10px;
-        border: 1px solid rgb(31, 206, 15);
+        padding: 25px;
+
         }
     
 }

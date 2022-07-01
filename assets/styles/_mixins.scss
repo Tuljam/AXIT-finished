@@ -1,0 +1,22 @@
+:root {
+    --large-container: 1200px;
+}
+@mixin fontSize ($count) {
+    font-size: calc($count/16)+rem;
+}
+
+@mixin remLh ($count) {
+    line-height: calc($count/16)+rem;
+}
+
+@mixin mediaTablet {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin mediaMobile {
+    @media screen and (max-width: 1023px) {
+        @content;
+    }
+}
