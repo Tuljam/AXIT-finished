@@ -14,10 +14,10 @@
 
     .container {
         display: flex;
-        padding: 206px 30px 45px 52px;
+        padding: 260px 15px 45px 15px;
         
         @include mediaTablet {
-        padding: 206px 15px 45px 42px;
+        padding: 160px 15px 45px 15px;
         align-items: center;
         }
         @include mediaMobile {

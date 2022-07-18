@@ -280,11 +280,11 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 206px 30px 45px 52px;
+  padding: 260px 15px 45px 15px;
 }
 @media screen and (max-width: 1199px) {
   .axit-baner .container {
-    padding: 206px 15px 45px 42px;
+    padding: 160px 15px 45px 15px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -543,7 +543,7 @@ a {
 }
 .socials-media .container--media {
   margin: 0 auto;
-  padding: 35px 12px;
+  padding: 35px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -775,7 +775,7 @@ a {
 }
 
 .about-us .container {
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 .about-us__main-title {
   font-family: "Raleway", sans-serif;
@@ -920,7 +920,7 @@ a {
   background: #F5F5F5;
 }
 .pricing-block .container {
-  padding: 20px 0;
+  padding: 20px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1096,7 +1096,7 @@ a {
 }
 
 .customers .container {
-  padding: 40px 0;
+  padding: 40px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1356,7 +1356,7 @@ a {
 
 .contact-us .container {
   max-width: 1170px;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 @media screen and (max-width: 1023px) {
   .contact-us .container {
@@ -1500,7 +1500,7 @@ a {
 .footer .container-footer {
   background: black;
   border: 1px solid red;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 
 .socials-mediaFooter__list {
