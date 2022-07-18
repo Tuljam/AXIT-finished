@@ -20,7 +20,7 @@
         color: #fff;
         transition: background-color .3s ease-in-out;
         @include mediaMobile {
-            margin: 0 auto;
+        margin: 0 auto;
         }
         }
         &--red:hover, &--red:focus {

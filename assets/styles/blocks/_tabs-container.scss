@@ -20,13 +20,13 @@
             border-top:3px solid #86878B;
             }
         } 
-    
-    &__text {
+    &__text {   
         color: $colorGreyAccent;
         text-transform: uppercase;
         font-family: $fontRaleway;
         font-weight: 400;
         @include fontSize (14);
+        line-height: 32px;
         text-align: center;
         }
     } 
