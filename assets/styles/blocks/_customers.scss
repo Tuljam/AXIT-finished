@@ -66,23 +66,25 @@
     border-radius: 10px;
     gap: 10px 0;
     overflow: hidden;
+    position: relative;
+    margin-bottom:20px ;
+    
     }
     
     &__block-triangle {
         width:0;
         height:0;
         position: relative;
-        margin-bottom: 35px;
-        }
+        &::before {
+        content: '';
+        position: absolute;
+        border: 15px solid transparent;
+        border-top: 15px solid $colorLightGreyAccent;
+        top: -19px;
+        left: 75px;
+    }}
     
- &__block-triangle::before {
-    border:15px solid transparent;
-	border-top-color:$colorLightGreyAccent;
-	position:absolute;
-	bottom:-30px;
-    right: -154px;
-	content:'';
- }
+
     &__content-descr {
     font-family: $fontRaleway;
     font-weight: 400;

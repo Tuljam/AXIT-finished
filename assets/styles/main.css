@@ -1185,20 +1185,21 @@ a {
   border-radius: 10px;
   gap: 10px 0;
   overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
 }
 .customers__block-triangle {
   width: 0;
   height: 0;
   position: relative;
-  margin-bottom: 35px;
 }
 .customers__block-triangle::before {
-  border: 15px solid transparent;
-  border-top-color: #F5F5F5;
-  position: absolute;
-  bottom: -30px;
-  right: -154px;
   content: "";
+  position: absolute;
+  border: 15px solid transparent;
+  border-top: 15px solid #F5F5F5;
+  top: -19px;
+  left: 75px;
 }
 .customers__content-descr {
   font-family: "Raleway", sans-serif;
